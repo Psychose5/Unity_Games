@@ -1,0 +1,6 @@
+- Serialized
+- Prefabe = kopieteil in ordner gespeichert
+- erstelle 3D projekt
+    - spiel damit rum
+    - 3D Figurenteil
+    - Reflection Probe

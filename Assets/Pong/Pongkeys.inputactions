@@ -1,0 +1,107 @@
+{
+    "version": 1,
+    "name": "Pongkeys",
+    "maps": [
+        {
+            "name": "Player1",
+            "id": "1a84c051-8d43-455d-b876-9959258b1994",
+            "actions": [
+                {
+                    "name": "controlles",
+                    "type": "Value",
+                    "id": "e80a9e05-1fa2-4f6c-882e-19054a56275b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "3057087b-b19a-40a1-ae29-9c0cb7419885",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "controlles",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "b3bd0dc3-fb01-4073-8987-5e60b1cb5738",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "controlles",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "0aa650d3-6c36-4db1-b2ed-b3a6fc87958b",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "controlles",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "Player2",
+            "id": "62f44175-d6e8-4259-91a8-caf87bc332f9",
+            "actions": [
+                {
+                    "name": "controlles",
+                    "type": "Value",
+                    "id": "4633ff32-451a-4f04-8b3a-ba37a34ec940",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "0420b180-a1c3-442a-8e66-3a1a557675b5",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "controlles",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "0a8f9ff7-2fc6-4922-809e-4c84e6117080",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "controlles",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "23aa2d0a-6d10-43b6-a0e1-432cdcfd138f",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "controlles",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
