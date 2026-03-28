@@ -61,3 +61,7 @@ Es können auch Powerups spawnen die der Player nutzen kann.
     - Nuke = Anzahl Block zerstört + Anzahl Block -1 leben
 ## (Optional) Besondere Herausforderungen / Lessions Learned
 - richtige Reaktion des Balls wenn er den Block vorne/hinten oder seitlich trifft
+
+
+## Video
+Abgabe.mkv = Mit in zip
