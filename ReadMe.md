@@ -7,6 +7,9 @@ Unity Version:          6000.0.69f1
 
 - Nutzung grundeinstellungen aus dem Unterricht
 
+# Scene
+Scene befindet sich in Assets/Scene ordner = Arknoid
+
 ## Steuerung
 
 | Taste | Funktion |
