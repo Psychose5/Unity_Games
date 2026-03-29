@@ -94,4 +94,12 @@ public class Arknoidscore : MonoBehaviour
         seenscore.text = "";
         blockline.text = "";
     }
+
+    // winning
+    public void winning()
+    {
+        gameover.text = "You WIN" + "\nEndscore: " + score.ToString();
+        seenscore.text = "";
+        blockline.text = "";
+    }
 }

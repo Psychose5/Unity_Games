@@ -40,7 +40,7 @@ Es können auch Powerups spawnen die der Player nutzen kann.
     - Speeddown (gelber Ball) = Ball speed down
     - Nuke (schwarzroter Zylinder) = -1 hit von jedem Block
 - Blöcke werden nach vorne geschoben und Blockreihe spawned nach
-    - bei min. 15 zerstörten Blöcken (durch nächsten Paddle hit)
+    - bei min. 10 zerstörten Blöcken (durch nächsten Paddle hit)
     - bei Arenaout und Reset des Balls
 - 8 Reihen werden die Blöcke der ersten Reihe zerstört
 

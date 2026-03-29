@@ -7,6 +7,7 @@ public class ArknoidLife : MonoBehaviour
     private GameObject lifePrefab; // used Life model
     [SerializeField]
     private Transform Line; // midpoint position of life line
+    [SerializeField]
     private int lifes = 3; //  number of rows (Reihen)
     private float spacingZ = 2f; // distance between lifes vertical
     

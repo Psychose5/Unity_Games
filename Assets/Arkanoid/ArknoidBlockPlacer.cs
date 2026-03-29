@@ -20,6 +20,7 @@ public class ArknoidBlockPlacer : MonoBehaviour
     public Vector3 startPosition; // Startposition
     // Grid
     private ArknoidBlock[,] grid;
+    private Arknoidscore scoreSystem;
 
     void Start()
     {
@@ -27,6 +28,8 @@ public class ArknoidBlockPlacer : MonoBehaviour
         startPosition = Line.position;
         // Grid initialisieren
         grid = new ArknoidBlock[maxrow, columns];
+        // scoreclass
+        scoreSystem = FindFirstObjectByType<Arknoidscore>();
 
         PlaceBlocks();
     }
@@ -164,6 +167,29 @@ public class ArknoidBlockPlacer : MonoBehaviour
         if (grid[row, col] == block)
         {
             grid[row, col] = null;
+
+            // check if won
+            if (IsGridEmpty())
+            {
+                Debug.Log("YOU WIN!");
+                scoreSystem.winning();
+            }
         }
+    }
+
+    // test if grid is empty
+    public bool IsGridEmpty()
+    {
+        for (int row = 0; row < maxrow; row++)
+        {
+            for (int col = 0; col < columns; col++)
+            {
+                if (grid[row, col] != null)
+                {
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 }

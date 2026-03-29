@@ -1871,6 +1871,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifePrefab: {fileID: 7748775292333945775, guid: f756f83c2e8412e43a4ab76006d15460, type: 3}
   Line: {fileID: 1741725894}
+  lifes: 3
   startPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1776520091
 GameObject:

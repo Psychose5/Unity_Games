@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08811a4be52a6e04fb46d0c7cb228d9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  abilitySpawnChance: 1
+  abilitySpawnChance: 0.2
   breakSound: {fileID: 0}
   hitEffect: {fileID: 0}
   hitPointMaterials:
